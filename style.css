@@ -1,0 +1,98 @@
+h1,h2{
+	background-color: #235952;
+	color: #ffebd9;
+	line-height: 1.6;
+	font-size: 25px;
+	font-family: Raleway;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	border: 1px solid #ECFBFC;
+}
+
+body{
+	font-family: Lora, Sans-serif;
+	background: #ECFBFC;
+}
+
+a{text-decoration: none;
+color: #235952;
+font-size: 20px}
+
+a:hover {color: #235952;}
+a{
+	background-color: #ffebd9;
+	padding: 10px 15px;
+	border-radius: 5px;
+	line-height: 3.5;
+}
+
+div{
+	border: 2px solid grey;
+	border-radius: 15px;
+	background-color: white;
+	margin: 70px;
+	padding: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+/*resize image or design one item*/
+#profile{
+	width: 280px;
+	border-radius: 50%;
+	border: 8px solid #ffebd9;
+	margin-bottom: 20px;
+}
+
+.img-circle{
+	width: 200px;
+	border-radius: 80%;
+	border: 5px solid #ffebd9;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+.text-center{text-align: center;}
+
+/*design adapted, with a screen of max 720 px*/
+@media (max-width: 960px){
+	.container{width: 700px}
+}
+@media (max-width: 720px){
+	.container{width: 500px}
+}
+@media (max-width: 540px){
+	.container{width: 300px}
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+
+}
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+#introduction{
+	margin-bottom: 20px;
+	text-indent: 15px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+#vacances{
+	margin-bottom: 20px;
+	text-indent: 10px;
+	margin-left: 130px;
+	margin-right: 130px;
+	padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
